@@ -23,7 +23,7 @@ import java.util.logging.Logger;
 public class Block {
 
     static {
-        File myObj = new File("storagoefdsdfsd.txt");
+        File myObj = new File("storage.txt");
         try {
 
             if (myObj.createNewFile()) {
